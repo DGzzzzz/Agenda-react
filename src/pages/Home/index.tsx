@@ -1,12 +1,8 @@
-import BotaoAdicionar from '../../components/BotaoAdicionar'
-import BarraLateral from '../../containers/BarraLateral'
-import ListaDeTarefas from '../../containers/BarraLateral/ListaDeTarefas'
+import ListaDeContatos from '../../containers/ListaDeContatos'
 
-const Home = () => (
+const Home: React.FC = () => (
   <>
-    <BarraLateral mostrarFiltros />
-    <ListaDeTarefas />
-    <BotaoAdicionar />
+    <ListaDeContatos />
   </>
 )
 

@@ -1,11 +1,8 @@
-import BarraLateral from '../../containers/BarraLateral'
-import Formulario from '../../containers/Formulario'
+import NovoContato from '../../containers/NovoContato'
 
-const Cadastro = () => (
+const Cadastro: React.FC = () => (
   <>
-    {/* BarraLateral */}
-    <BarraLateral mostrarFiltros={false} />
-    <Formulario />
+    <NovoContato />
   </>
 )
 
